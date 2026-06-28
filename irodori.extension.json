@@ -33,7 +33,14 @@
         "wire": "search",
         "module": "elasticsearch.driver",
         "features": [
-          "metadata"
+          "metadata",
+          "vectorSearch",
+          "embeddingSearch",
+          "hybridSearch",
+          "queryTemplates",
+          "visualization",
+          "fullTextSearch",
+          "facetedSearch"
         ],
         "connection": {
           "schemaVersion": 1,
