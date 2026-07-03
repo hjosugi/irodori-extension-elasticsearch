@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "extensionId": "irodori.elasticsearch",
   "visibility": "public",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "connector": {
     "id": "elasticsearch.connector",
     "engine": "elasticsearch",
@@ -61,6 +61,8 @@
       "basic",
       "apiKey",
       "bearerToken",
+      "jwt",
+      "accessToken",
       "oauth2",
       "clientCertificate",
       "customDriverOptions"
